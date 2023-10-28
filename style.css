@@ -1,0 +1,144 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(202, 202, 202);
+}
+
+header{
+    background-color: orange;
+    margin-right: auto;
+    margin-left: auto;
+    height: 50px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px rgba(255, 166, 0, 0.438);
+    border: solid 1px rgb(196, 127, 0);
+}
+/*______________________________________APRESENTADORES______________________________________________________________*/
+
+.box{
+    width: auto;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background-color: rgb(0, 0, 83);
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 255, 0.432);
+    display: flex;
+    overflow-x: auto;
+}
+
+.apresentador{
+    margin-top: -15px;
+    margin-left: 30px;
+    color: white;
+}
+
+/*______________________________________APRESENTADORES______________________________________________________________*/
+
+
+/*______________________________________TEXTO______________________________________________________________*/
+
+
+
+h1{
+    margin-top: -12px;
+    color: white;
+    text-align: left;
+    width: 50px;
+    scale: 0.50;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    margin-left: 40px;
+}
+
+p{
+    margin-left: 40px;
+}
+
+
+/*______________________________________TEXTO______________________________________________________________*/
+
+
+
+/*______________________________________NOTÍCIAS______________________________________________________________*/
+
+.noticias{
+    margin-top: 450px;
+}
+
+.noticia01{
+    width: 250px;
+    display: inline-block;
+    padding: 20px;
+    margin-left: 25px;
+    text-align: center;
+
+}
+
+.img1{
+    width: 270px;
+    border-radius: 15px;
+    margin-left: 50px;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border: solid 0px;
+}
+
+.img1:hover{
+    scale: 1;
+}
+
+
+img{
+    width: 293px;
+    border: solid 2px #e77e05;
+}
+
+img:hover{
+    scale: 1.06;
+    border-color: black;
+}
+
+
+
+/*______________________________________NOTÍCIAS______________________________________________________________*/
+
+
+/*______________________________________RODAPÉ______________________________________________________________*/
+
+
+footer{
+    background-color: orange;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -15px;
+    height: 50px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px rgba(255, 166, 0, 0.438);
+}
+
+
+
+/*______________________________________RODAPÉ______________________________________________________________*/
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(202, 202, 202);        /* color of the tracking area */
+    box-shadow: 5px 5px 20px rgba(255, 166, 0, 0.438);
+
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: orange;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    
+  }
